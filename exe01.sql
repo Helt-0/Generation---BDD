@@ -24,5 +24,6 @@ SELECT nome, salario FROM tb_funcionarios WHERE salario<2000;
 
 -- O estagiário foi efetivado!!
 UPDATE tb_funcionarios SET salario = 2200.00 WHERE id = 5;
+UPDATE tb_funcionarios SET cargo = "desenvolvedor(a)" WHERE id = 5;
 
 SELECT*FROM tb_funcionarios;
