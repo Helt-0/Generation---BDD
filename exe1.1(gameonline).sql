@@ -10,7 +10,7 @@ CREATE TABLE tb_classes(
 );
 
 INSERT INTO tb_classes(classe, raca)
-values("guerreiro", "orc"),
+VALUES("guerreiro", "orc"),
 ("ferreiro", "anão"),
 ("arqueiro", "elfo"),
 ("mago", "humano"),
